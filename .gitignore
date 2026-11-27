@@ -1,0 +1,12 @@
+node_modules/
+.env
+admin/.env
+mobile/.env
+backend/.env
+dist/
+.expo/
+uploads/
+*.log
+.DS_Store
+.env.*
+!.env.example

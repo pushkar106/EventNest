@@ -1,0 +1,14 @@
+{
+  "name": "eventnest",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix admin && npm install --prefix mobile",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:admin": "npm run dev --prefix admin",
+    "dev:mobile": "npm start --prefix mobile",
+    "seed": "npm run seed:all --prefix backend",
+    "seed:admin": "npm run seed:admin --prefix backend",
+    "test:api": "node scripts/api-test.js"
+  }
+}

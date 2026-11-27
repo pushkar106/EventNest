@@ -1,0 +1,29 @@
+
+{
+  "expo": {
+    "name": "EventNest",
+    "slug": "eventnest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "eventnest",
+    "splash": {
+      "backgroundColor": "#0B1220"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eventnest.app"
+    },
+    "android": {
+      "package": "com.eventnest.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B1220"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eventnest-local"
+      }
+    }
+  }
+}
